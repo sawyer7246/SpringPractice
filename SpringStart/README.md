@@ -2,7 +2,7 @@
 ##As a proverb goes 
 >Action is the proper fruit of knowledge
 
-So, here I am.Also, It really a pleasure to coding on the new Eclipse Neon.Especially you can change your font size with a simple key combination.
+So, here I am.Also, It is really a pleasure to coding on the new Eclipse Neon.Especially you can change your font size with a simple key combination.
 
 #Chapter 1
 ##wiring beans
@@ -14,6 +14,9 @@ So, here I am.Also, It really a pleasure to coding on the new Eclipse Neon.Espec
 ##2.2 Automatically wiring beans
 *Component scanning: Spring automatically discovers beans to be createdin the application context.
 *Autowiring: Spring automatically satisfies bean dependencies.
+
+##2.3 Creating discoverable beans 
+
 
 
 
