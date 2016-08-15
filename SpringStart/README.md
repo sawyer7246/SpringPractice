@@ -1,7 +1,6 @@
 #I've been read Spring in Action, and I do find so exciting features there.It is really worth trying it myself.
 ##As a proverb goes 
 >Action is the proper fruit of knowledge
-
 So, here I am.Also, It is really a pleasure to coding on the new Eclipse Neon.Especially you can change your font size with a simple key combination.
 
 #Chapter 1
@@ -15,7 +14,10 @@ So, here I am.Also, It is really a pleasure to coding on the new Eclipse Neon.Es
 *Component scanning: Spring automatically discovers beans to be createdin the application context.
 *Autowiring: Spring automatically satisfies bean dependencies.
 
-##2.3 Creating discoverable beans 
+##2.3 Creating discoverable beans  
+
+##2.4 Annotating beans to be automatically wired
+
 
 
 
