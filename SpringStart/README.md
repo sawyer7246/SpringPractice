@@ -14,6 +14,12 @@ So, here I am.Also, It is really a pleasure to coding on the new Eclipse Neon.Es
 *Component scanning: Spring automatically discovers beans to be createdin the application context.
 *Autowiring: Spring automatically satisfies bean dependencies.
 
+###2.2.2 Naming a component-scanned bean
+	@Component("lonelyHeartsClub")
+	public class SgtPeppers implements CompactDisc {
+	...
+	}
+
 ##2.3 Creating discoverable beans  
 
 ##2.4 Annotating beans to be automatically wired

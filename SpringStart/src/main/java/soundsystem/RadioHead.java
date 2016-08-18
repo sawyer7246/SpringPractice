@@ -2,8 +2,8 @@ package soundsystem;
 
 public class RadioHead implements CompactDisc {
 
-	private String title = "West Life's new song";
-	private String artist = "four guys";
+	private String title = "RadioHead's new song";
+	private String artist = "Engish Rock Band";
 	
 	
 	@Override

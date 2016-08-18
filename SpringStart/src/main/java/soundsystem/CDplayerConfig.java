@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Configuration;
 
 import video.DVDPlayer;
 
-@Configuration
+//@Configuration
 //@ComponentScan(basePackages={"video","soundsystem"})//扫描包
-@ComponentScan(basePackageClasses={CDPlayer.class , DVDPlayer.class})//扫描类所在的包
+//@ComponentScan(basePackageClasses={CDPlayer.class , DVDPlayer.class})//扫描类所在的包
 public class CDplayerConfig {
 
 	@Bean
@@ -26,10 +26,10 @@ public class CDplayerConfig {
 //		return new CDPlayer(randomWestLifeCD());//这个方法会被拦截
 //	}
 	
-	@Bean
-	public CDPlayer cdPlay(CompactDisc compactDisc){
-		//自动注入
-		return new CDPlayer(randomWestLifeCD());
-	}
+//	@Bean
+//	public CDPlayer cdPlay(CompactDisc compactDisc){
+//		//自动注入
+//		return new CDPlayer(randomWestLifeCD());
+//	}
 	
 }

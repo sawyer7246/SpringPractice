@@ -2,7 +2,7 @@ package soundsystem;
 
 import org.springframework.stereotype.Component;
 
-@Component("fourFags")
+//@Component
 public class WestLifeAlbum implements CompactDisc {
 
 	private String title = "West Life's new song";

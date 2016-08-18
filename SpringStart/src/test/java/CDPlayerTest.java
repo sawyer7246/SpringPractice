@@ -11,21 +11,25 @@ import soundsystem.CompactDisc;
 import soundsystem.MediaPlayer;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = CDplayerConfig.class)
+//@ContextConfiguration(classes = CDplayerConfig.class)
+@ContextConfiguration(locations = {"classpath:config/ApplicationContext.xml"})
 public class CDPlayerTest {
 
-	@Autowired
-	private CompactDisc cd;
+//	@Autowired(required=false)
+//	private CompactDisc cd;
 
 	@Autowired
 	private MediaPlayer player;
+	
 	// @Rule
 	// public final StandardOutputStreamLog log = new StandardOutputStreamLog();
 
-	@Test
-	public void cdShouldNotBeNull() {
-		assertNotNull(cd);
-	}
+//	@Test
+//	public void cdShouldNotBeNull() {
+//		assertNotNull(cd);
+//	}
+//	
+
 
 	@Test
 	public void play() {
