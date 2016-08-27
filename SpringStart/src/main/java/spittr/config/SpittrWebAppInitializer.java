@@ -12,7 +12,7 @@ public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherS
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return new Class<?>[] { CDplayerConfig.class };
+		return new Class<?>[] { RootConfig.class };
 	}
 
 	@Override
